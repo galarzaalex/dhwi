@@ -13,22 +13,36 @@
  */
 
 html {
-	background-color: #eee;
+	background-color: #fff;
+	border-top: 10px solid #777;
 }
 
 body {
+	font-family: Helvetica, sans-serif;
 	width: 80%;
 	margin: 0 auto;
 	text-align: left;
 	background-color: #fff;
 	padding: 20px 40px;
-	border: 10px solid #ddd;
 }
 
 header {
 	background-color: #333;
-	color: #fff;
+	color: #FFCA00;
 	padding: 20px;
+	border: 10px solid #777;
+	-moz-border-radius: 15px;
+			border-radius: 15px;
+			margin: 10px;
+}
+
+header h1 {
+	font-size: 100px;
+}
+
+h1, h2 {
+	font-family: Helvetica, sans-serif;
+	font-size: 40px;
 }
 
 nav ul {
@@ -45,3 +59,30 @@ header a:link {color: #fff;}
 header a:visited {color: #fff;}
 header a:hover {color: #fff;}
 header a:focus {color: #fff;}
+
+table {
+	width: 100%;
+}
+
+thead th {
+	border-bottom: 10px solid #777;
+	text-align: left;
+}
+
+th,
+td {
+	padding: 5px 0;
+}
+
+tbody tr {
+	background-color: #eee;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #ddd;
+}
+
+a:link {color: #000;}
+ a:visited {color: #000;}
+ a:hover {color: #000;}
+ a:focus {color: #000;}
